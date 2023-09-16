@@ -56,7 +56,7 @@ function boxClicked(e){
     if(playerHasWon()){
         boxes.forEach(box => box.removeEventListener('click', boxClicked));
         for (const win of playerHasWon()){
-            boxes[win].style.backgroundColor = 'rgba(0,0,0,0.2)'
+            boxes[win].style.backgroundColor = 'rgba(0,255,0,0.2)'
             
         }
         body.append(new_el)
